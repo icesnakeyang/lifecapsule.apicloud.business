@@ -1,0 +1,13 @@
+server:
+  port: 8088
+spring:
+  application:
+    name: com.gogoyang.lifecapsule.business
+  datasource:
+    url: jdbc:mysql://rm-wz9v8xc42t1go7ptc0o.mysql.rds.aliyuncs.com:3306/lifecapsule
+    username: root
+    password: 112233ccddEE
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:5000/eureka
